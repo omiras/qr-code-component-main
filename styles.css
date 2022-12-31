@@ -20,31 +20,29 @@ body {
     min-height: 100vh;
 }
 
+p {
+    padding-top: 1rem;
+}
+
 .qr {
     background-color: var(--white);
     border-radius: 15px;
     display: flex;
     flex-direction: column;
     width: 300px;
-    padding-top: 1rem;
+    padding: 1rem;
 
-}
-
-.qr--code {
-    margin: 0 auto;
 }
 
 .qr--code img {
     border-radius: 15px;
-    height: 270px;
+    max-width: 100%;
 
 }
 
-
 .qr--information {
     text-align: center;
-    padding: 0 2.3rem 1rem 2.3rem;
-
+    padding: 1rem;
 }
 
 .qr--title {
